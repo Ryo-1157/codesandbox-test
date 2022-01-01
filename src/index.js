@@ -1,3 +1,30 @@
+/**
+ * const let の宣言
+ */
+
+// var val1 = "var変数";
+// console.log(val1);
+
+// var変数は上書きができる。
+
+// val1 = "var変数を上書き";
+// console.log(val1);
+
+// val1 = "var変数を際宣言。";
+// console.log(val1);
+
+// let val2 = "let変数";
+// console.log(val2);
+// val2 = "let変数を上書き";
+// console.log(val2);
+
+// let val2 = "変数を再度宣言";
+
+// const val3 = "const変数";
+// console.log(val3);
+
+// val3 = "際宣言";
+
 // const val3 = "const変数を際宣言";
 
 //objectの定義はほとんどconstで定義する
