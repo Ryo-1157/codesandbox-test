@@ -186,3 +186,33 @@
 //   }
 // });
 // console.log(newNameArr);
+
+/**
+ * 参考演算子
+ */
+// ある上条件　？　条件がtrueの時　：　条件がfalseの時。　とう記述方法
+
+// const num = 1300;
+
+// const formattedNum =
+//   typeof num === "number" ? num.toLocaleString() : "数値を入力してください。";
+// console.log(formattedNum);
+
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "１００を超えています" : "許容範囲ないです。";
+// };
+// console.log(checkSum(100, 200));
+
+/**
+ * 論理演算子の本当の意味を知ろう。　&& ||
+ */
+
+// ||は、左側がfalseなら右側を返す。左側がtrueなら左側を返す。
+// const num = null;
+// const fee = num || "金額が未設定です。";
+// console.log(fee);
+
+// // 左側がTrueなら、右側を返す。左側がfalseなら、左側を返す。
+// const num2 = false;
+// const fee2 = num2 && "何か設定されています。";
+// console.log(fee2);
